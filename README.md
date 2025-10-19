@@ -1,46 +1,82 @@
-📦 Project: Custom Clearing Management System
-Custom Clearing is a Laravel-based web application designed to streamline and automate the customs clearance process for import/export businesses. The system handles documentation, tracking, client management, and expense reporting related to clearing goods through customs.
-This project was built to address the operational inefficiencies and manual paperwork traditionally involved in logistics and international trade operations.
-________________________________________
-🌟 Key Features
-•	📁 Customs Documentation Management
-Upload, manage, and track all required documents (invoices, packing lists, shipping documents, etc.) for each shipment.
-•	🚢 Shipment Tracking
-Track the progress of each shipment through various clearance stages (e.g., document submission, customs approval, release).
-•	👥 Client & Agent Management
-Manage records of clients, brokers, and third-party agents involved in the process.
-•	💸 Expense Logging & Billing
-Record expenses for each shipment (duty, port charges, agent fees) and generate invoices.
-•	📊 Reports & Dashboards
-View status reports, financial summaries, and history logs by shipment, client, or time period.
-•	🔐 Role-Based Access Control
-Admin, Agent, and Client roles with different levels of system access and functionality.
-________________________________________
-⚙️ Technology Stack
-•	Backend: Laravel 10.x (PHP 8.1+)
-•	Frontend: Blade templating with Bootstrap and Tailwind CSS
-•	Database: MySQL or MariaDB
-•	Authentication: Laravel Sanctum (for API token management)
-•	HTTP Client: Guzzle HTTP for external API requests
-•	Development Tools:
-o	Laravel Sail (Docker environment)
-o	Laravel Pint (code styling)
-o	PHPUnit & Mockery (testing and mocking)
-o	Faker PHP (test data generation)
-•	Additional Features:
-o	Laravel Notifications for email/alerts
-o	File uploads management
-o	PDF generation for invoices and documents
-o	Custom helper functions for reusable utilities
+# 📦 Custom Clearing Management System
 
-________________________________________
-📌 Use Case Scenarios
-•	A customs clearing company needs to manage multiple clients and handle the clearance of their shipments from ports or airports.
-•	A clearance agent requires a centralized system to track document submissions, customs statuses, and release processes.
-•	A finance/admin team wants clear records of all expenses and charges related to customs clearance for billing and reporting.
-•	The company wants to automate routine workflows, such as generating invoices, sending status updates, and maintaining client records.
-________________________________________
-🔐 Confidentiality Note
-This project was delivered for a client and includes proprietary workflow logic.
-Therefore, source code is not publicly available.
-A mind map and demo video are available to showcase architecture and features.
+A Laravel-based web application developed to streamline and automate the customs clearance process for companies handling shipment clearance from ports and airports.
+
+This system centralizes document management, shipment tracking, expense logging, and client operations — replacing outdated manual workflows with modern, secure digital processes.
+
+---
+
+## 🌟 Key Features
+
+- 📁 **Customs Documentation Management**  
+  Upload, store, and track required documents (invoices, shipping papers, packing lists).
+
+- 🚢 **Shipment Tracking**  
+  Monitor clearance stages: document submission, customs review, release, etc.
+
+- 👥 **Client & Agent Management**  
+  Manage records of clients, agents, and brokers in one place.
+
+- 💸 **Expense Logging & Invoicing**  
+  Log duty, port charges, agent fees — auto-generate PDF invoices.
+
+- 📊 **Reports & Dashboards**  
+  View shipment status summaries, financial reports, and activity logs.
+
+- 🔐 **Role-Based Access Control**  
+  Permissions for Admin, Agent, and Client roles.
+
+---
+
+## ⚙️ Technology Stack
+
+| Layer         | Tools & Frameworks                                      |
+|---------------|----------------------------------------------------------|
+| Backend       | Laravel 10.x (PHP 8.1+)                                   |
+| Frontend      | Blade Templating, Bootstrap, Tailwind CSS                 |
+| Database      | MySQL / MariaDB                                           |
+| Auth System   | Laravel Sanctum                                           |
+| API & HTTP    | Guzzle HTTP Client                                        |
+| Dev Tools     | Laravel Sail, Laravel Pint, PHPUnit, Mockery, Faker PHP  |
+| Extras        | File Uploads, Laravel Notifications, PDF Generation, Custom Helpers |
+
+---
+
+## 📌 Use Case Scenarios
+
+- A **customs clearing company** managing client shipments through ports and airports.
+- A **clearance agent** tracking documentation, workflow status, and shipment progress.
+- A **finance/admin team** logging customs-related expenses and issuing invoices.
+- A company seeking to **automate routine tasks** and reduce operational delays.
+
+---
+
+## 🧠 Mind Map
+
+> *(Include this section only if you've added the image file below)*
+
+![Mind Map](docs/mindmap.png)
+
+---
+
+## 🎥 Demo Video
+
+> *(Link to your demo video or Loom recording here)*  
+[▶️ Watch Demo](https://your-demo-video-link.com)
+
+---
+
+## 🔐 Confidentiality Note
+
+This project was delivered for a private client and contains proprietary business workflows.  
+While the full source code is not public, this repository includes planning materials and a feature showcase via video and mind map.
+
+---
+
+## 📎 Contact
+
+For collaboration or to request a demo, please contact:  
+**Seemab** — [your email or LinkedIn link here]
+
+---
+
