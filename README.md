@@ -53,15 +53,13 @@ This system centralizes document management, shipment tracking, expense logging,
 
 ## 🧠 Mind Map
 
-> *(Include this section only if you've added the image file below)*
 
-![Mind Map](docs/mindmap.png)
+![Mind Map](docs/mindmap.PNG)
 
 ---
 
 ## 🎥 Demo Video
 
-> *(Link to your demo video or Loom recording here)*  
 [▶️ Watch Demo](https://your-demo-video-link.com)
 
 ---
