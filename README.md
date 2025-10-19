@@ -74,7 +74,8 @@ While the full source code is not public, this repository includes planning mate
 ## 📎 Contact
 
 For collaboration or to request a demo, please contact:  
-**Seemab** — [your email or LinkedIn link here]
+**Seemab** — seemabshafqat00223@gmail.com
+
 
 ---
 
